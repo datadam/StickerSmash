@@ -11,6 +11,7 @@
   "dependencies": {
     "@expo/vector-icons": "^13.0.0",
     "@expo/webpack-config": "^19.0.0",
+    "aws-amplify": "^6.0.12",
     "dom-to-image": "^2.6.0",
     "expo": "~49.0.15",
     "expo-dev-client": "~2.4.12",
@@ -26,8 +27,14 @@
     "react-native-web": "~0.19.6"
   },
   "devDependencies": {
+    "@aws-amplify/backend": "^0.10.1",
+    "@aws-amplify/backend-cli": "^0.9.6",
     "@babel/core": "^7.20.0",
-    "@babel/plugin-proposal-export-namespace-from": "^7.18.9"
+    "@babel/plugin-proposal-export-namespace-from": "^7.18.9",
+    "aws-cdk": "^2.121.1",
+    "aws-cdk-lib": "^2.121.1",
+    "constructs": "^10.3.0",
+    "typescript": "^5.3.3"
   },
   "private": true
 }
